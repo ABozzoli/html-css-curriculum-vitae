@@ -1,3 +1,4 @@
+/* HEADER START */
 header {
     background-color: whitesmoke;
 }
@@ -18,3 +19,24 @@ hr {
     background-color: goldenrod;
     border: none;
 }
+/* HEADER END */
+
+/* MAIN START */
+main {
+    padding: 1em;
+}
+
+h2 {
+    color: goldenrod;
+}
+
+h3 {
+    font-style: italic;
+}
+/* MAIN END */
+
+/* FOOTER START */
+footer {
+    text-align: center;  
+}
+/* FOOTER END */
