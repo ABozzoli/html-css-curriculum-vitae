@@ -10,9 +10,10 @@
 <body>
     <!-- Titolo e introduzione -->
     <header>
+        <hr><!-- riga -->
         <h1>Halloween Party</h1>
         <h2>Per partecipare compila il form sottostante!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <hr><!-- riga -->
     </header>
 
@@ -41,8 +42,8 @@
             </div>
             
             <!-- dettagli 1 -->
-            <div class="sx">
-                <label for="quanti"><br>In quanti siete?</label><br>
+            <div class="sx"><br><!-- break -->
+                <label for="quanti">In quanti siete?</label><br>
                 <input type="number" name="quanti" id="quanti" required>
             </div>
 
@@ -54,9 +55,11 @@
                 <input type="time" name="quando" id="quando" required>
             </div>
 
+            <br><hr><!-- riga -->
+
             <!-- opzionale 1 -->
             <div>
-                <p>Come ne siete venuti a conoscenza?</p>
+                <p id="no-padding">Come ne siete venuti a conoscenza?</p>
                 <input type="radio" name="come" id="come-1">
                 <label for="come-1">Amici o conoscenti</label>
                 <br>
@@ -71,19 +74,19 @@
             </div>
 
             <!-- opzionale 2 -->
-            <div>
+            <div><br><!-- break -->
                 <label for="costume">Da cosa vi travestirete?</label><br>
-                <input type="text" name="costume" id="costume" size="50" placeholder="es: macaco albino vendicatore">
+                <input type="text" name="costume" id="costume" size="52" placeholder="es: macaco albino vendicatore">
             </div>
 
             <!-- informativa privacy -->
-            <div>
+            <div><br><!-- break -->
                 <input type="checkbox" name="privacy" id="privacy" required>
                 <label for="privacy">Ho letto l'informativa sulla privacy</label>
             </div>
 
             <!-- pulsante invio -->
-            <div>
+            <div><br><!-- break -->
                 <button type="submit">Registrati</button>
             </div>
         </form>
@@ -99,6 +102,7 @@
             Tel. 02 70109289<br>
             <a href="mailto:halloweenpt@gmail.com">halloweenpt@gmail.com</a>
         </p>
+        <hr><!-- riga -->
     </footer>
 </body>
 </html>
