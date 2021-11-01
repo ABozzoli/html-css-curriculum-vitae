@@ -7,7 +7,6 @@ body {
 header {
     background-color: indigo;
     text-align: center;
-    padding-top: 0.5em;
 }
 form {
     background-color: indigo;
@@ -16,18 +15,34 @@ form {
     margin-right: auto;
     width: 25em;
     border-radius: 2em;
-    padding: 3em;
+    padding: 1.5em 3em 3em 3em;
 }
 footer {
     background-color: indigo;
     text-align: center;
+}
+
+/*testo*/
+h1{
+    font-size: 3em;
+}
+h2, h3 {
+    color: orangered;
+}
+a {
+    color: orange;
+}
+p {
     padding-bottom: 1em;
+}
+#no-padding {
+    padding: 0em;
 }
 
 /*extra*/
 hr {
     height: 5px;
-    background-color: orange;
+    background-color: orangered;
     border: none;
 }
 .sx {
@@ -35,7 +50,4 @@ hr {
 }
 .dx {
     float: right;
-}
-a {
-    color: orange;
 }
