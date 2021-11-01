@@ -13,7 +13,7 @@
         <hr><!-- riga -->
         <h1>Halloween Party</h1>
         <h2>Per partecipare compila il form sottostante!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="bottom-padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <hr><!-- riga -->
     </header>
 
@@ -23,27 +23,27 @@
             <h2>Form di registrazione</h2>
             <!-- informazioni personali 1 -->
             <div class="sx">
-                <label for="nome">Nome</label><br>
+                <label for="nome">Nome<span>*</span></label><br>
                 <input type="text" name="nome" id="nome" required>
             </div>
             <div class="dx">
-                <label for="cognome">Cognome</label><br>
+                <label for="cognome">Cognome<span>*</span></label><br>
                 <input type="text" name="cognome" id="cognome" required>
             </div>
 
             <!-- informazioni personali 2 -->
             <div class="sx">
-                <label for="email">E-mail</label><br>
+                <label for="email">E-mail<span>*</span></label><br>
                 <input type="email" name="email" id="email" required>
             </div>
             <div class="dx">
-                <label for="telefono">Telefono</label><br>
+                <label for="telefono">Telefono<span>*</span></label><br>
                 <input type="tel" name="telefono" id="telefono" required>
             </div>
             
             <!-- dettagli 1 -->
             <div class="sx"><br><!-- break -->
-                <label for="quanti">In quanti siete?</label><br>
+                <label for="quanti">In quanti siete?<span>*</span></label><br>
                 <input type="number" name="quanti" id="quanti" required>
             </div>
 
@@ -51,7 +51,7 @@
 
             <!-- dettagli 2 -->
             <div>
-                <label for="quando">A che ora arriverete?</label><br>
+                <label for="quando">A che ora arriverete?<span>*</span></label><br>
                 <input type="time" name="quando" id="quando" required>
             </div>
 
@@ -59,7 +59,7 @@
 
             <!-- opzionale 1 -->
             <div>
-                <p id="no-padding">Come ne siete venuti a conoscenza?</p>
+                <p class="no-padding">Come ne siete venuti a conoscenza?</p>
                 <input type="radio" name="come" id="come-1">
                 <label for="come-1">Amici o conoscenti</label>
                 <br>
@@ -82,8 +82,11 @@
             <!-- informativa privacy -->
             <div><br><!-- break -->
                 <input type="checkbox" name="privacy" id="privacy" required>
-                <label for="privacy">Ho letto l'informativa sulla privacy</label>
+                <label for="privacy">Ho letto l'informativa sulla privacy<span>*</span></label>
             </div>
+
+            <!-- campo obbligatorio -->
+            <p id="mandatory"><span>*</span><em>Campo obbligatorio</em></p>
 
             <!-- pulsante invio -->
             <div><br><!-- break -->
@@ -96,7 +99,7 @@
     <footer>
         <hr><!-- riga -->
         <h3>Halloween Party s.r.l.</h3>
-        <p>
+        <p class="bottom-padding">
             Via C. Lombroso, 54<br>
             20137, Milano (MI)<br>
             Tel. 02 70109289<br>

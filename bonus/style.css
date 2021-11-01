@@ -16,6 +16,7 @@ form {
     width: 25em;
     border-radius: 2em;
     padding: 1.5em 3em 3em 3em;
+    outline: 5px dashed indigo;
 }
 footer {
     background-color: indigo;
@@ -32,11 +33,17 @@ h2, h3 {
 a {
     color: orange;
 }
-p {
+.bottom-padding {
     padding-bottom: 1em;
 }
-#no-padding {
+.no-padding {
     padding: 0em;
+}
+span {
+    color: orangered;
+}
+#mandatory {
+    font-size: x-small;
 }
 
 /*extra*/
