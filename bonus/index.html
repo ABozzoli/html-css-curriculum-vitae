@@ -18,33 +18,37 @@
 
     <!-- Form di registrazione-->
     <main>
-        <h2>Form di registrazione</h2>
         <form>
+            <h2>Form di registrazione</h2>
             <!-- informazioni personali 1 -->
-            <div>
+            <div class="sx">
                 <label for="nome">Nome</label><br>
                 <input type="text" name="nome" id="nome" required>
             </div>
-            <div>
+            <div class="dx">
                 <label for="cognome">Cognome</label><br>
                 <input type="text" name="cognome" id="cognome" required>
             </div>
 
             <!-- informazioni personali 2 -->
-            <div>
+            <div class="sx">
                 <label for="email">E-mail</label><br>
                 <input type="email" name="email" id="email" required>
             </div>
-            <div>
+            <div class="dx">
                 <label for="telefono">Telefono</label><br>
                 <input type="tel" name="telefono" id="telefono" required>
             </div>
-
-            <!-- dettagli -->
-            <div>
-                <label for="quanti">In quanti siete?</label><br>
+            
+            <!-- dettagli 1 -->
+            <div class="sx">
+                <label for="quanti"><br>In quanti siete?</label><br>
                 <input type="number" name="quanti" id="quanti" required>
             </div>
+
+            <br><br><br><br><br><br><br><br> <!-- necessari -->
+
+            <!-- dettagli 2 -->
             <div>
                 <label for="quando">A che ora arriverete?</label><br>
                 <input type="time" name="quando" id="quando" required>
@@ -69,7 +73,7 @@
             <!-- opzionale 2 -->
             <div>
                 <label for="costume">Da cosa vi travestirete?</label><br>
-                <input type="text" name="costume" id="costume" size="50" placeholder="Macaco albino vendicatore">
+                <input type="text" name="costume" id="costume" size="50" placeholder="es: macaco albino vendicatore">
             </div>
 
             <!-- informativa privacy -->
@@ -80,7 +84,7 @@
 
             <!-- pulsante invio -->
             <div>
-                <input type="submit" value="Invia">
+                <button type="submit">Registrati</button>
             </div>
         </form>
     </main>

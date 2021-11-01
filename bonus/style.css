@@ -1,0 +1,41 @@
+/*struttura base*/
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    background-image: url(img/cute-halloween-seamless-background_6997-2266.jpg);
+}
+header {
+    background-color: indigo;
+    text-align: center;
+    padding-top: 0.5em;
+}
+form {
+    background-color: indigo;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    border-radius: 2em;
+    padding: 3em;
+}
+footer {
+    background-color: indigo;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+/*extra*/
+hr {
+    height: 5px;
+    background-color: orange;
+    border: none;
+}
+.sx {
+    float: left;
+}
+.dx {
+    float: right;
+}
+a {
+    color: orange;
+}
