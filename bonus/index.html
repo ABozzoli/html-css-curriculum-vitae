@@ -19,7 +19,70 @@
     <!-- Form di registrazione-->
     <main>
         <h2>Form di registrazione</h2>
-        <!-- FORM -->
+        <form>
+            <!-- informazioni personali 1 -->
+            <div>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="cognome">Cognome</label><br>
+                <input type="text" name="cognome" id="cognome" required>
+            </div>
+
+            <!-- informazioni personali 2 -->
+            <div>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="telefono">Telefono</label><br>
+                <input type="tel" name="telefono" id="telefono" required>
+            </div>
+
+            <!-- dettagli -->
+            <div>
+                <label for="quanti">In quanti siete?</label><br>
+                <input type="number" name="quanti" id="quanti" required>
+            </div>
+            <div>
+                <label for="quando">A che ora arriverete?</label><br>
+                <input type="time" name="quando" id="quando" required>
+            </div>
+
+            <!-- opzionale 1 -->
+            <div>
+                <p>Come ne siete venuti a conoscenza?</p>
+                <input type="radio" name="come" id="come-1">
+                <label for="come-1">Amici o conoscenti</label>
+                <br>
+                <input type="radio" name="come" id="come-2">
+                <label for="come-2">Pubblicità radio/TV</label>
+                <br>
+                <input type="radio" name="come" id="come-3">
+                <label for="come-3">Social (fb, twitter, instagram, etc.)</label>
+                <br>
+                <input type="radio" name="come" id="come-4">
+                <label for="come-4">Altro...</label>
+            </div>
+
+            <!-- opzionale 2 -->
+            <div>
+                <label for="costume">Da cosa vi travestirete?</label><br>
+                <input type="text" name="costume" id="costume" size="50" placeholder="Macaco albino vendicatore">
+            </div>
+
+            <!-- informativa privacy -->
+            <div>
+                <input type="checkbox" name="privacy" id="privacy" required>
+                <label for="privacy">Ho letto l'informativa sulla privacy</label>
+            </div>
+
+            <!-- pulsante invio -->
+            <div>
+                <input type="submit" value="Invia">
+            </div>
+        </form>
     </main>
 
     <!-- indirizzo e contatti -->
