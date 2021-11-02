@@ -1,8 +1,6 @@
-body {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+header, main, footer {
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* HEADER START */
@@ -10,11 +8,9 @@ header {
     background-color: whitesmoke;
     text-align: center;
 }
-
 #profile-pic {
     width: 200px;
 }
-
 hr {
     height: 2px;
     background-color: goldenrod;
@@ -24,13 +20,12 @@ hr {
 
 /* MAIN START */
 main {
-    padding: 1em;
+    box-sizing: border-box;
+    padding: 0 1em;
 }
-
 h2 {
     color: goldenrod;
 }
-
 h3 {
     font-style: italic;
 }
