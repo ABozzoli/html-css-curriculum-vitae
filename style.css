@@ -8,17 +8,11 @@ body {
 /* HEADER START */
 header {
     background-color: whitesmoke;
-}
-
-/* per l'immagine */
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1 {
     text-align: center;
+}
+
+#profile-pic {
+    width: 200px;
 }
 
 hr {
