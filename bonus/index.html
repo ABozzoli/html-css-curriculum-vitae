@@ -21,38 +21,42 @@
     <main>
         <form>
             <h2>Form di registrazione</h2>
-            <!-- informazioni personali 1 -->
-            <div class="sx">
-                <label for="nome">Nome<span>*</span></label><br>
-                <input type="text" name="nome" id="nome" required>
-            </div>
-            <div class="dx">
-                <label for="cognome">Cognome<span>*</span></label><br>
-                <input type="text" name="cognome" id="cognome" required>
-            </div>
+            <div id="blocco-1">
+                <!-- riga 1 -->
+                <div class="row">
+                    <div>
+                        <label for="nome">Nome<span>*</span></label><br>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="dx">
+                        <label for="cognome">Cognome<span>*</span></label><br>
+                        <input type="text" name="cognome" id="cognome" required>
+                    </div>
+                </div>
 
-            <!-- informazioni personali 2 -->
-            <div class="sx">
-                <label for="email">E-mail<span>*</span></label><br>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div class="dx">
-                <label for="telefono">Telefono<span>*</span></label><br>
-                <input type="tel" name="telefono" id="telefono" required>
-            </div>
-            
-            <!-- dettagli 1 -->
-            <div class="sx"><br><!-- break -->
-                <label for="quanti">In quanti siete?<span>*</span></label><br>
-                <input type="number" name="quanti" id="quanti" required>
-            </div>
-
-            <br><br><br><br><br><br><br><br> <!-- necessari -->
-
-            <!-- dettagli 2 -->
-            <div>
-                <label for="quando">A che ora arriverete?<span>*</span></label><br>
-                <input type="time" name="quando" id="quando" required>
+                <!-- riga 2 -->
+                <div class="row">
+                    <div>
+                        <label for="email">E-mail<span>*</span></label><br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="dx">
+                        <label for="telefono">Telefono<span>*</span></label><br>
+                        <input type="tel" name="telefono" id="telefono" required>
+                    </div>
+                </div>
+                
+                <!-- riga 3 -->
+                <div class="row">
+                    <div>
+                        <label for="quanti">In quanti siete?<span>*</span></label><br>
+                        <input type="number" name="quanti" id="quanti" required>
+                    </div>
+                    <div class="dx special">
+                        <label for="quando">A che ora arriverete?<span>*</span></label><br>
+                        <input type="time" name="quando" id="quando" required>
+                    </div>
+                </div>
             </div>
 
             <br><hr><!-- riga -->

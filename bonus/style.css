@@ -52,9 +52,14 @@ hr {
     background-color: orangered;
     border: none;
 }
-.sx {
-    float: left;
+.row {
+    position: relative;
 }
 .dx {
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.special {
+    right: 1.5em;
 }
